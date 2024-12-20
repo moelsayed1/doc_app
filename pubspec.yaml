@@ -54,6 +54,11 @@ dependencies:
   easy_localization: ^3.0.7
   # for splash screen
   flutter_native_splash: ^2.4.1
+  # for cashing
+  flutter_svg: ^2.0.16
+  flutter_screenutil: ^5.9.3
+
+
 
 dev_dependencies:
   flutter_test:
