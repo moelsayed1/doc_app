@@ -45,13 +45,13 @@ dependencies:
   # Automatically generate code for converting to and from JSON by annotating Dart classes
   json_annotation: ^4.9.0
   # Networking
-  dio: ^5.7.0
+  dio: ^5.8.0+1
   retrofit: ^4.4.2
   retrofit_generator: ^9.1.7
   pretty_dio_logger: ^1.4.0
   # localization
-  intl: ^0.19.0
-  easy_localization: ^3.0.7
+  intl: ^0.20.2
+  #easy_localization: ^3.0.7
   # for splash screen
   flutter_native_splash: ^2.4.4
   # for cashing
@@ -72,6 +72,7 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
   json_serializable: ^6.9.3
+  build_runner: ^2.4.14
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -86,8 +87,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/images/
      - assets/svgs/
+     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
