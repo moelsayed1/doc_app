@@ -12,7 +12,7 @@ class SignUpCubit extends Cubit<SignUpState> {
 
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-  TextEditingController confirmPasswordController = TextEditingController();
+  TextEditingController passwordConfirmationController = TextEditingController();
   TextEditingController nameController = TextEditingController();
   TextEditingController phoneController = TextEditingController();
 
@@ -24,7 +24,7 @@ class SignUpCubit extends Cubit<SignUpState> {
       SignUpRequestBody(
         email: emailController.text,
         password: passwordController.text,
-        confirmPassword: confirmPasswordController.text,
+        confirmPassword: passwordConfirmationController.text,
         name: nameController.text,
         phone: phoneController.text,
         gender: 0,

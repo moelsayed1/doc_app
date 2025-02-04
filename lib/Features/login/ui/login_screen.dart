@@ -2,7 +2,7 @@ import 'package:doc_app/Core/helpers/spacing.dart';
 import 'package:doc_app/Core/theming/styles.dart';
 import 'package:doc_app/Core/widgets/app_elevated_button.dart';
 import 'package:doc_app/Features/login/logic/login_cubit.dart';
-import 'package:doc_app/Features/login/widgets/already_have_account_text.dart';
+import 'package:doc_app/Features/login/widgets/dont_have_account_text.dart';
 import 'package:doc_app/Features/login/widgets/email_and_password.dart';
 import 'package:doc_app/Features/login/widgets/login_bloc_listener.dart';
 import 'package:doc_app/Features/login/widgets/terms_and_conditions_text.dart';
@@ -60,7 +60,7 @@ class LoginScreen extends StatelessWidget {
                     verticalSpace(20.h),
                     TermsAndConditionsText(),
                     verticalSpace(40.h),
-                    AlreadyHaveAccountText(),
+                    DoNotHaveAccountText(),
                     LoginBlocListener(),
                   ],
                 ),
