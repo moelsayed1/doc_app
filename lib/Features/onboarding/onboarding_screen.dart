@@ -1,3 +1,4 @@
+import 'package:doc_app/Core/helpers/spacing.dart';
 import 'package:doc_app/Core/theming/styles.dart';
 import 'package:doc_app/Features/onboarding/widgets/doc_logo_and_name.dart';
 import 'package:doc_app/Features/onboarding/widgets/get_started_button.dart';
@@ -30,6 +31,7 @@ class OnboardingScreen extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 30.w),
                   child: Column(
                     children: [
+                      verticalSpace(10),
                       Text(
                         'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',
                         textAlign: TextAlign.center,
