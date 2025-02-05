@@ -26,9 +26,9 @@ class DocImageAndText extends StatelessWidget {
           child: Image.asset(Assets.imagesOnboardingDoctorImage),
         ),
         Positioned(
-          bottom: 30.h,
-          right: 0,
-          left: 0,
+          bottom: 0.h,
+          right: 0.h,
+          left: 0.h,
           child: Text(
             'Best Doctor \nAppointment App',
             textAlign: TextAlign.center,

@@ -1,8 +1,8 @@
-import 'package:doc_app/Core/di/dependency_injection.dart';
-import 'package:doc_app/Core/routing/app_router.dart';
 import 'package:doc_app/doc_app.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
+import 'Core/di/dependency_injection.dart';
+import 'Core/routing/app_router.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -10,6 +10,7 @@ void main() {
   setupGetIt();
   runApp(
     DocApp(
+      flavor: "production",
       appRouter: AppRouter(),
     ),
   );
