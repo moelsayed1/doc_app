@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832316207810",
+    "project_id": "doc-app-ce850",
+    "storage_bucket": "doc-app-ce850.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832316207810:android:7249aec4cf60eb0b57015b",
+        "android_client_info": {
+          "package_name": "com.example.doc_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQpDsxntyA3Sxg6R0C3Tpps3J2KAM2MYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

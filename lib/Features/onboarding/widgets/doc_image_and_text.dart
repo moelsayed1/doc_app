@@ -17,7 +17,7 @@ class DocImageAndText extends StatelessWidget {
               gradient: LinearGradient(
             colors: [
               Colors.white,
-              Colors.white.withOpacity(0.0),
+              Colors.white.withAlpha(0),
             ],
             begin: Alignment.bottomCenter,
             end: Alignment.topCenter,
@@ -26,9 +26,9 @@ class DocImageAndText extends StatelessWidget {
           child: Image.asset(Assets.imagesOnboardingDoctorImage),
         ),
         Positioned(
-          bottom: 30.h,
-          right: 0,
-          left: 0,
+          bottom: 0.h,
+          right: 0.h,
+          left: 0.h,
           child: Text(
             'Best Doctor \nAppointment App',
             textAlign: TextAlign.center,
